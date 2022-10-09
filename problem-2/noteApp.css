@@ -33,7 +33,7 @@ body {
     justify-content: flex-end;
 }
 
-/* 2 icons (edit, delete) */
+/* 2 icons (edit and delete) */
 .note .tools button {
     background-color: transparent;
     color: white;
@@ -56,7 +56,6 @@ body {
 
 /* 저장한 뒤 글이 쓰여진 부분 */
 .note .main {
-  background-color: transparent;
   border-radius: 7px;
   border: none;
   font-size: 1.2rem;
@@ -71,7 +70,6 @@ body {
 
 /* The area to enter the text */
 .note textarea {
-  background-color: #F0F2D9;
   border-radius: 7px;
   border: none;
   font-size: 1.2rem;

@@ -2,6 +2,8 @@ const addBtn = document.getElementById("add_note");
 
 const notes = JSON.parse(localStorage.getItem("notes"));
 
+var counter = 0;
+
 if (notes) {
     notes.forEach((note) => {
         addNewNote(note);
@@ -15,11 +17,12 @@ addBtn.addEventListener("click", () => {
 function addNewNote(text = "") {
     const note = document.createElement("div");
     note.classList.add("note");
+    counter++;
 
     note.innerHTML = `
         <div class="notes">
             <div class="tools">
-                <select name="colors" onchange = "changeColor(this)">
+                <select name="colors" onchange = "changeColor(this, ` + counter + `)">
                     <option selected="">Choose colour</option>
                     <option id="red" value="#F7BBB5">Red</option>
                     <option value="#F7DAB5">Orange</option>
@@ -29,13 +32,14 @@ function addNewNote(text = "") {
                     <option value="#E2B5F7">Purple</option>
                 </select>
                 
+                
                 <button class = "edit"><i class="fa-sharp fa-solid fa-pen"></i></button>
                 <button class = "delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
 
             </div>
 
             <div class="main ${text ? "" : "hidden"}"></div>
-            <textarea class="${text ? "hidden" : ""}"></textarea>
+            <textarea id = ` + counter + ` class="${text ? "hidden" : ""}"></textarea>
         </div>
 
     `;
@@ -84,13 +88,10 @@ function updateLS() {
 }
 
 
-function changeColor(event) {
+function changeColor(event, counter) {
     var color = event.value;
-    const b = document.getElementsByTagName('textarea');
-    var arr = new Array(100);    
-
-    for(let i = 0; i < arr.length; i++)
-    {
-        b[i].style.backgroundColor=color;
-    }
+    const b = document.getElementById(counter)
+	console.log("First line" + b.getItem);
+    b.style.backgroundColor=color;
+    
 }

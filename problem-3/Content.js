@@ -27,4 +27,5 @@ for (let i = 0; i < p.length; i++){
     p[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness.";
 }
 
+// Displaying the warning when you search something on google
 window.alert("You just googled Alien but you won't find the answer");
