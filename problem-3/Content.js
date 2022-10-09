@@ -26,3 +26,5 @@ const p = document.getElementsByTagName("p");
 for (let i = 0; i < p.length; i++){
     p[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness.";
 }
+
+window.alert("You just googled Alien but you won't find the answer");
