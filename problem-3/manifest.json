@@ -1,4 +1,5 @@
 {
+    "description": "Simple Chrome Extension by Aliens",
     "manifest_version": 3,
     "action": {
         "default_popup": "Content.html",
