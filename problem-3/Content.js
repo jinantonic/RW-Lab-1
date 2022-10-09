@@ -16,9 +16,21 @@ for(let i = 0; i < imgs.length; i++) {
 }
 
 // Do the same for h1 elements
-const headers = document.getElementsByTagName("h1");
-for (let i = 0; i < headers.length; i++){
-    headers[i].innerText = "The Earth is taken by our Aliens, humans suck";
+const header1 = document.getElementsByTagName("h1");
+for (let i = 0; i < header1.length; i++){
+    header1[i].innerText = "The Earth is taken by our Aliens, humans suck";
+}
+
+// Do the same for h2 elements
+const header2 = document.getElementsByTagName("h2");
+for (let i = 0; i < header2.length; i++){
+    header2[i].innerText = "Now pack your back and bring all kinds of Alcohol to us";
+}
+
+// Do the same for h5 elements
+const header5 = document.getElementsByTagName("h5");
+for (let i = 0; i < header5.length; i++){
+    header5[i].innerText = "I prefer Guiness";
 }
 
 // Do the same for p elements
@@ -27,5 +39,29 @@ for (let i = 0; i < p.length; i++){
     p[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness.";
 }
 
+// Do the same for a elements
+const a = document.getElementsByTagName("a");
+for (let i = 0; i < a.length; i++){
+    a[i].innerText = "Ta la la la la";
+}
+
+// Do the same for span elements
+const s = document.getElementsByTagName("span");
+for (let i = 0; i < s.length; i++){
+    s[i].innerText = "WARNING";
+}
+
+// Do the same for li elements
+const li = document.getElementsByTagName("li");
+for (let i = 0; i < li.length; i++){
+    li[i].innerText = "Urgent News";
+}
+
+// Do the same for button elements
+const btn = document.getElementsByTagName("button");
+for (let i = 0; i < btn.length; i++){
+    btn[i].innerText = "Alien Alert";
+}
+
 // Displaying the warning when you search something on google
-window.alert("You just googled Alien but you won't find the answer");
+window.alert("ha ha ha ha Good luck trying to work with this ha ha ha ha");
