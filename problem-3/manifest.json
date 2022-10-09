@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "Content.html",
+        "default_icon": "head.png"
+    },
+    "icons": {
+        "128": "head.png"
+    },
+    "name": "Now the Earth is ours",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js": ["Content.js"]
+        }
+    ]
+
+    
+}
+
