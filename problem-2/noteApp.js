@@ -1,28 +1,31 @@
-const addBtn = document.getElementById("add_note");
+// Get the element with the specified id, "add_note"
+const add_button = document.getElementById("add_note");
 
-const notes = JSON.parse(localStorage.getItem("notes"));
+// Retrieve the data in the local storage, retrieving "notes" object here
+const notePads = JSON.parse(localStorage.getItem("notes")); 
 
-var counter = 0;
+var num = 0;
 
-if (notes) {
-    notes.forEach((note) => {
-        addNewNote(note);
+if (notePads) {
+    notePads.forEach((note) => {
+        addNote(note);
     });
 }
 
-addBtn.addEventListener("click", () => {
-    addNewNote();
+add_button.addEventListener("click", () => {
+    addNote();
 });
 
-function addNewNote(text = "") {
+// Function which adds notes
+function addNote(text = "") {
     const note = document.createElement("div");
     note.classList.add("note");
-    counter++;
+    num++;
 
     note.innerHTML = `
         <div class="notes">
-            <div class="tools">
-                <select name="colors" onchange = "changeColor(this, ` + counter + `)">
+            <div class="colour_menu">
+                <select name="colours" onchange = "changeColour(this, ` + num + `)">
                     <option selected="">Choose colour</option>
                     <option id="red" value="#F7BBB5">Red</option>
                     <option value="#F7DAB5">Orange</option>
@@ -32,36 +35,33 @@ function addNewNote(text = "") {
                     <option value="#E2B5F7">Purple</option>
                 </select>
                 
-                
                 <button class = "edit"><i class="fa-sharp fa-solid fa-pen"></i></button>
                 <button class = "delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
-
             </div>
 
             <div class="main ${text ? "" : "hidden"}"></div>
-            <textarea id = ` + counter + ` class="${text ? "hidden" : ""}"></textarea>
+            <textarea id = ` + num + ` class="${text ? "hidden" : ""}"></textarea>
         </div>
-
     `;
 
-    const editBtn = note.querySelector(".edit");
-    const deleteBtn = note.querySelector(".delete");
+    const edit_button = note.querySelector(".edit"); // Get the first element with class "edit"
+    const del_button = note.querySelector(".delete");  // Get the first element with class "delete"
 
-    const main = note.querySelector(".main");
-    const textArea = note.querySelector("textarea");
+    const main = note.querySelector(".main"); // Get the first element with class "main"
+    const textArea = note.querySelector("textarea"); // Get the first element with class "textarea"
 
     textArea.value = text;
     main.innerHTML = marked(text);
 
-    editBtn.addEventListener("click", () => {
+    edit_button.addEventListener("click", () => {
         main.classList.toggle("hidden");
         textArea.classList.toggle("hidden");
     });
 
-    deleteBtn.addEventListener("click", () => {
+    del_button.addEventListener("click", () => {
         note.remove();
 
-        updateLS();
+        uploadToLS();
     });
 
     textArea.addEventListener("input", (e) => {
@@ -69,29 +69,31 @@ function addNewNote(text = "") {
 
         main.innerHTML = marked(value);
 
-        updateLS();
+        uploadToLS();
     });
 
     document.body.appendChild(note);
 }
 
-function updateLS() {
+// Function which saves the notes to the Local Storage
+function uploadToLS() {
     const notesText = document.querySelectorAll("textarea");
 
-    const notes = [];
+    const note_arr = [];
 
     notesText.forEach((note) => {
-        notes.push(note.value);
+        note_arr.push(note.value);
     });
 
-    localStorage.setItem("notes", JSON.stringify(notes));
+    // Convert the JavaScript value "notes" to a JSON string and save it to the local storage
+    localStorage.setItem("notes", JSON.stringify(note_arr));
 }
 
-
-function changeColor(event, counter) {
-    var color = event.value;
+// Function which lets the users to choose the background colour for the notes
+function changeColour(event, counter) {
+    var colour = event.value;
     const b = document.getElementById(counter)
+
 	console.log("First line" + b.getItem);
-    b.style.backgroundColor=color;
-    
+    b.style.backgroundColor = colour;
 }
