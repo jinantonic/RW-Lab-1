@@ -7,3 +7,4 @@ Create a simple note-taking app. A user should be able to
 - Each note should be in a colored rectangular box. 
 - Box colors can be selected from a fixed list of colors.
 
+![Sketch](/problem-2/noteApp.png)
