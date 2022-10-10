@@ -17,7 +17,7 @@ Perform the following operations based on the valueof window size:
 - DO NOT USE BOOTSTRAP!
 
 ![Sketch](/images/1x4.png)
-</br>
+</br></br>
 ![Sketch](/images/2x2.png)
-</br>
+</br></br>
 ![Sketch](/images/4x1.png)
