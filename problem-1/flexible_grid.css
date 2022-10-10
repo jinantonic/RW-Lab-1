@@ -1,21 +1,23 @@
-.container {
-    display: flex;
-    flex-wrap : wrap;
+.flex_grid {
+    border: none; /* Set the border as none since each grid will have its own border */
 }
 
-.box {
-    flex-grow: 0.25;
-    border: 1px solid black;
+.grid {
+  border: 1px solid black; /* The border of the grid must be 1px black */
 }
 
-@media (max-width: 720px) {
-    .box {
-        width: calc(50% - 2px)
+/* min-width is set as 720px so that the 1x4 flexible grid becomes a 2x2 grid */
+@media screen and (min-width: 720px) {
+    .flex_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
     }
 }
-
-@media (max-width: 360px) {
-    .box {
-        width: calc(100% - 2px)
+  
+/* min-width is set as 360px so that the 1x4 flexible grid becomes 4x1 grid */
+@media screen and (min-width: 360px) {
+    .flex_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
     }
 }

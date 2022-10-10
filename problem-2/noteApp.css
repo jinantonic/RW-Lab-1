@@ -13,7 +13,7 @@ body {
 
 /* Add NOTE button */
 .add_note {
-    background-color: #706A64;
+    background-color: #8C8782;
     color: white;
     border: none;
     border-radius: 5px;
@@ -27,7 +27,7 @@ body {
 /* Top bar of the memo where it has 2 icons and a dropdown menu */
 .note .tools {
     border-radius: 5px;
-    background-color: #706A64;
+    background-color: #8C8782;
     padding: 10px;
     display: flex;
     justify-content: flex-end;
@@ -45,7 +45,7 @@ body {
 
 /* 상단바 제외한 전체 노트, 텍스트 박스 뒤 노트 바디 */
 .note {
-    background-color: #706A64;
+    background-color: #8C8782;
     border-radius: 7px;
     border: none;
     margin: 10px;
@@ -59,6 +59,7 @@ body {
   border-radius: 7px;
   border: none;
   font-size: 1.2rem;
+  margin: 10px;
   padding: 0px 20px 20px 20px;
   /* 
     padding top: 0px
@@ -70,6 +71,7 @@ body {
 
 /* The area to enter the text */
 .note textarea {
+  background-color: #F0F2D9;
   border-radius: 7px;
   border: none;
   font-size: 1.2rem;
