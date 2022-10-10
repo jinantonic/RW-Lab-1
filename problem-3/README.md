@@ -20,7 +20,8 @@ To reproduce that situation, I replaced the elements that I checked through goog
 Also, I added a small popup link and window alert so that it displays some funny texts when the icon is clicked or we navigate the browser.
 <br /> 
 Hope this brings you joy because I had so much fun developing it.
-
+<br /> 
+<br /> 
 
 
 ![Sketch](/images/ext1.png) ![Sketch](/images/ext2.png)
