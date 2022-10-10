@@ -6,19 +6,19 @@
 - Provide a short readme file explaining your extension’ functionalities. Be creative!
 
 
-</br>
+<br />
 Have you ever thought of the existence of Aliens?
-</br>
+<br />
 Some people believe in them and I do believe there might be another existing creatures on Earth.
-</br>
+<br />
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens.
-</br>
+<br />
 We won't be able to access any internet since they will try to encrypt our human language to their own language.
-</br>
+<br />
 To reproduce that situation, I replaced the elements that I checked through google chrome developer to random images or texts.
-</br>
+<br />
 Also, I added a small popup link and window alert so that it displays some funny texts when the icon is clicked or we navigate the browser.
-</br>
+<br /> 
 Hope this brings you joy because I had so much fun developing it.
 
 
