@@ -15,3 +15,9 @@ Perform the following operations based on the valueof window size:
 - If the window size is less than 360px, then the 1x4 flexible grid becomes 4x1 grid. Each column slides under the one before it. 
   The 2nd column slides under the 1st, the 3rd slides under the 2nd, and the 4th slides under the 3rd.
 - DO NOT USE BOOTSTRAP!
+
+![Sketch](/images/1x4.png)
+</br>
+![Sketch](/images/2x2.png)
+</br>
+![Sketch](/images/4x1.png)
