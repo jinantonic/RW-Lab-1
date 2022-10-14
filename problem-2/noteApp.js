@@ -2,18 +2,21 @@
 const add_button = document.getElementById("add_note");
 
 // Retrieve the data in the local storage, retrieving "notes" object here
+// It finds the data somewhere and creates the JSON value to put into const variable
 const notePads = JSON.parse(localStorage.getItem("notes")); 
 const textIdentifier = "textId"; // The normal note 
 const savedIdentifier = "savedId"; // For when the note is saved
-
 var num = 0;
 
+// Checks to see if this variable actually contains data
+// If it does then it goes through a for loop where it will for every note and add it to whatever it's being added to
 if (notePads) {
     notePads.forEach((note) => {
         addNote(note);
-    });
-}
+    }); 
+} // end if
 
+// When the add button is clicked then call the function addNote()
 add_button.addEventListener("click", () => {
     addNote();
 });
@@ -78,7 +81,7 @@ function addNote(text = "") {
     });
 
     document.body.appendChild(note);
-}
+} // end function addNote()
 
 // Function which saves the notes to the Local Storage
 function uploadToLS() {
@@ -92,7 +95,7 @@ function uploadToLS() {
 
     // Convert the JavaScript value "notes" to a JSON string and save it to the local storage
     localStorage.setItem("notes", JSON.stringify(note_arr));
-}
+} // end function uploadToLS()
 
 // Function which lets the users to choose the background colour for the notes
 function changeColour(event, textId, savedId) {
@@ -103,4 +106,4 @@ function changeColour(event, textId, savedId) {
 	console.log("First line" + b.getItem);
     b.style.backgroundColor = colour;
 	c.style.backgroundColor = colour;
-}
+} // end function changeColour()
