@@ -16,6 +16,8 @@ Perform the following operations based on the valueof window size:
   The 2nd column slides under the 1st, the 3rd slides under the 2nd, and the 4th slides under the 3rd.
 - DO NOT USE BOOTSTRAP!
 
+</br></br></br>
+
 # My solution
 ![Sketch](/images/1x4.png)
 This is the flexible grid with 1 row and 4 columns.</br>
