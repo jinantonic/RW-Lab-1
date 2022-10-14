@@ -17,7 +17,7 @@ Perform the following operations based on the valueof window size:
 - DO NOT USE BOOTSTRAP!
 
 
-
+</br></br>
 ![Sketch](/images/1x4.png)
 This is the flexible grid with 1 row and 4 columns. </br>
 If the window size is greater than or equal to 720px, it is displaying 1x4 flexible grid.
