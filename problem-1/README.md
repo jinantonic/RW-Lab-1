@@ -17,15 +17,14 @@ Perform the following operations based on the valueof window size:
 - DO NOT USE BOOTSTRAP!
 
 # My solution
-</br></br>
 ![Sketch](/images/1x4.png)
-This is the flexible grid with 1 row and 4 columns. </br>
+This is the flexible grid with 1 row and 4 columns.</br>
 If the window size is greater than or equal to 720px, it is displaying 1x4 flexible grid.
 </br></br></br>
 ![Sketch](/images/2x2.png)
-This is the flexible grid with 2 rows and 2 columns. 
+This is the flexible grid with 2 rows and 2 columns.</br>
 If the window size is less than 720px and greater than or equal to 360px, the 1x4 grid becomes 2x2 grid.
 </br></br>
 ![Sketch](/images/4x1.png)
-This is the flexible grid with 4 rows and 1 column. 
+This is the flexible grid with 4 rows and 1 column.</br>
 If the window size is less than 360px, the 1x4 grid becomes 4x1 grid.
