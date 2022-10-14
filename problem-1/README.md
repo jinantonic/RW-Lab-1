@@ -19,9 +19,9 @@ Perform the following operations based on the valueof window size:
 
 
 ![Sketch](/images/1x4.png)
-This is the flexible grid with 1 row and 4 columns. 
+This is the flexible grid with 1 row and 4 columns. </br>
 If the window size is greater than or equal to 720px, it is displaying 1x4 flexible grid.
-</br></br>
+</br></br></br>
 ![Sketch](/images/2x2.png)
 This is the flexible grid with 2 rows and 2 columns. 
 If the window size is less than 720px and greater than or equal to 360px, the 1x4 grid becomes 2x2 grid.
