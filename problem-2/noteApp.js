@@ -3,6 +3,8 @@ const add_button = document.getElementById("add_note");
 
 // Retrieve the data in the local storage, retrieving "notes" object here
 const notePads = JSON.parse(localStorage.getItem("notes")); 
+const textIdentifier = "textId"; // The normal note 
+const savedIdentifier = "savedId"; // For when the note is saved
 
 var num = 0;
 
@@ -21,11 +23,13 @@ function addNote(text = "") {
     const note = document.createElement("div");
     note.classList.add("note");
     num++;
+	let textId = textIdentifier.concat("", num);
+	let savedId = savedIdentifier.concat("", num);
 
     note.innerHTML = `
         <div class="notes">
             <div class="colour_menu">
-                <select name="colours" onchange = "changeColour(this, ` + num + `)">
+                <select name="colours" onchange = "changeColour(this, '` + textId + `', '` + savedId + `')">
                     <option selected="">Choose colour</option>
                     <option id="red" value="#F7BBB5">Red</option>
                     <option value="#F7DAB5">Orange</option>
@@ -39,8 +43,8 @@ function addNote(text = "") {
                 <button class = "delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
             </div>
 
-            <div class="main ${text ? "" : "hidden"}"></div>
-            <textarea id = ` + num + ` class="${text ? "hidden" : ""}"></textarea>
+            <div id = '`+ savedId +`'class="main ${text ? "" : "hidden"}"></div>
+            <textarea id = '` + textId + `' class="${text ? "hidden" : ""}"></textarea>
         </div>
     `;
 
@@ -49,6 +53,7 @@ function addNote(text = "") {
 
     const main = note.querySelector(".main"); // Get the first element with class "main"
     const textArea = note.querySelector("textarea"); // Get the first element with class "textarea"
+
 
     textArea.value = text;
     main.innerHTML = marked(text);
@@ -90,10 +95,12 @@ function uploadToLS() {
 }
 
 // Function which lets the users to choose the background colour for the notes
-function changeColour(event, counter) {
+function changeColour(event, textId, savedId) {
     var colour = event.value;
-    const b = document.getElementById(counter)
+    const b = document.getElementById(textId);
+	const c = document.getElementById(savedId);
 
 	console.log("First line" + b.getItem);
     b.style.backgroundColor = colour;
+	c.style.backgroundColor = colour;
 }
