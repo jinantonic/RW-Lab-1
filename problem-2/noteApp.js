@@ -26,8 +26,8 @@ function addNote(text = "") {
     const note = document.createElement("div");
     note.classList.add("note");
     num++;
-	let textId = textIdentifier.concat("", num);
-	let savedId = savedIdentifier.concat("", num);
+    let textId = textIdentifier.concat("", num);
+    let savedId = savedIdentifier.concat("", num);
 
     note.innerHTML = `
         <div class="notes">
