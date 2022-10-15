@@ -63,7 +63,7 @@ for (let i = 0; i < li.length; i++) {
 // Do the same for rule button elements
 const btn = document.getElementsByTagName("button");
 for (let i = 0; i < btn.length; i++) {
-    btn[i].innerText = "! Alien Alert ! DO NOT CLICK";
+    btn[i].innerText = "! Alien Alert ! DO NOT CLICK !";
 
     button.addEventListener('click', () => {
         window.open('https://www.youtube.com/shorts/4Pq5R0JS95Q', '_blank');
