@@ -10,13 +10,13 @@
 Have you ever thought of the existence of Aliens? Some people believe in them and I do believe there might be another existing creature on Earth.
 </br></br>
 
-![Sketch](/images/ext1.png)
+![Sketch](/images/ext.png)
 
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. The default icon is set as the head of the alien to be noticed easily.
 </br></br>
 
-![Sketch](/images/ext2.png)
-![Sketch](/images/ext3.png)
+![Sketch](/images/b1.png)
+![Sketch](/images/b2.png)
 
 We won't be able to access any internet since they will try to encrypt our human language to their language. To reproduce that situation, I replaced the elements (such as h1, h2, h3, etc) that I checked through google chrome developer with random images or texts. 
 </br></br>
