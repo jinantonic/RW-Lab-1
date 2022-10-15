@@ -26,5 +26,6 @@ In this case, the user chose the background colour as green and still editing th
 </br></br>
 
 ![Sketch](/images/note4.png)
+
 This is the whole screenshot of my memo application.
 The default font is set as 'Copperplate' for the design, but it can be modified to any other font since Copperplate only displays the upper case alphabets.
