@@ -27,10 +27,12 @@ Also, I added a small popup link to display weird messages once the chrome exten
 </br></br>
 
 ![Sketch](/images/alert.png)
+
 This is another fun feature which will display the window alert with funny texts in it whenever we navigate the browser.
 
 </br></br>
 ![Sketch](/images/wave.png)
+
 Hope this brings you joy because I had so much fun developing it.
 
 
