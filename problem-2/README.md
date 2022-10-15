@@ -10,7 +10,6 @@ Create a simple note-taking app. A user should be able to
 
 # My solution
 I created a web application which a user can add, edit, delete note and change the background colour of the notes.
-
 Each memo has a top bar which has a dropdown menu for colour choice, edit/save and delete button at the right top corner. 
 
 ![Sketch](/images/note1.png)![Sketch](/images/dropdown.png)
