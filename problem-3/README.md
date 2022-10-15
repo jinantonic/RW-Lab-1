@@ -33,7 +33,7 @@ This is another fun feature which will display the window alert with funny texts
 </br></br>
 ![Sketch](/images/wave.png)
 
-Hope this brings you joy because I had so much fun developing it.
+Hope this brings you a bit of smile because I had so much fun developing it.
 
 
 
