@@ -7,18 +7,23 @@
 </br></br>
 
 # My solution
-Have you ever thought of the existence of Aliens? Some people believe in them and I do believe there might be another existing creatures on Earth.
+Have you ever thought of the existence of Aliens? Some people believe in them and I do believe there might be another existing creature on Earth.
 </br></br>
 
 ![Sketch](/images/ext1.png)
 
-I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. Default icon is set as the head of the alien to be noticed easily.
-
+I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. The default icon is set as the head of the alien to be noticed easily.
+</br></br>
 
 ![Sketch](/images/ext4.png)
 ![Sketch](/images/ext5.png)
 
-We won't be able to access any internet since they will try to encrypt our human language to their own language. To reproduce that situation, I replaced the elements (such as h1, h2, h3, etc) that I checked through google chrome developer to random images or texts. 
+We won't be able to access any internet since they will try to encrypt our human language to their language. To reproduce that situation, I replaced the elements (such as h1, h2, h3, etc) that I checked through google chrome developer with random images or texts. 
+</br></br>
+
+![Sketch](/images/ext2.png)
+Also, I added a small popup link to display weird messages once the chrome extension icon(alien's head) is clicked to add a little razzle-dazzle.
+
 
 
 <br />
@@ -30,7 +35,7 @@ Hope this brings you joy because I had so much fun developing it.
 
 
 
-![Sketch](/images/ext2.png)
+
 
 
 ![Sketch](/images/ext3.png)
