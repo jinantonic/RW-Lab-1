@@ -20,6 +20,7 @@ This is the very first setting of the application, the user can start writing st
 While editing               |  After saved
 :----------------------:|:-------------------------:
 ![Sketch](/images/note2.png)|![Sketch](/images/note3.png)
+</br>
 In this case, the user chose the background colour as green and still editing the memo. Once it's done, the user can click the pencil button at the right top corner to save it and click that button again for editing. So the pencil button works as an edit and save button. Once the note is saved, you can see that it has a bit more padding on the top.
 
 
