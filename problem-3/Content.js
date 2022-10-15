@@ -18,66 +18,66 @@ for(let i = 0; i < imgs.length; i++) {
     imgs[i].src = alienPictures[randomImg]
 }
 
-// Apply the same rule to h1 elements
+// Replace all of the h1 elements with the text below
 const header1 = document.getElementsByTagName("h1");
 for (let i = 0; i < header1.length; i++) {
     header1[i].innerText = "The Earth is taken by our Aliens, humans suck";
 }
 
-// Apply the same rule to h2 elements
+// Replace all of the h2 elements with the text below
 const header2 = document.getElementsByTagName("h2");
 for (let i = 0; i < header2.length; i++) {
     header2[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness";
 }
 
-// Apply the same rule to h3 elements
+// Replace all of the h3 elements with the text below
 const header3 = document.getElementsByTagName("h3");
 for (let i = 0; i < header3.length; i++) {
     header3[i].innerText = "! WARNING !";
 }
 
-// Apply the same rule to h4 elements
+// Replace all of the h4 elements with the text below
 const header4 = document.getElementsByTagName("h4");
 for (let i = 0; i < header4.length; i++) {
     header4[i].innerText = "Freedom is banned";
 }
 
-// Apply the same rule to h5 elements
+// Replace all of the h5 elements with the text below
 const header5 = document.getElementsByTagName("h5");
 for (let i = 0; i < header5.length; i++) {
     header5[i].innerText = "Now go pack your bag and bring all kinds of Alcohol to us";
 }
 
-// Apply the same rule to p elements
+// Replace all of the p elements with the text below
 const p = document.getElementsByTagName("p");
 for (let i = 0; i < p.length; i++) {
     p[i].innerText = "The sooner the better";
 }
 
-// Getting random image from the array we created before and replace all the a elements to the random alien images
+// Getting random image from the array we created before and replace all the a elements with the random alien images
 const a = document.getElementsByTagName("a");
 for (let i = 0; i < a.length; i++) {
     const randomImg2 = Math.floor(Math.random() * alienPictures.length)
     a[i].src = alienPictures[randomImg2]
 }
 
-// Apply the same rule to span elements
+// Replace all of the span elements with the text below
 const s = document.getElementsByTagName("span");
 for (let i = 0; i < s.length; i++) {
     s[i].innerText = "Ta la la la la";
 }
 
-// Apply the same rule to li elements
+// Replace all of the li elements with the text below
 const li = document.getElementsByTagName("li");
 for (let i = 0; i < li.length; i++) {
     li[i].innerText = "Urgent News";
 }
 
-// Apply the same rule to button elements
+// Replace all of the button elements with the text below
 const btn = document.getElementsByTagName("button");
 for (let i = 0; i < btn.length; i++) {
     btn[i].innerText = "! Alien Alert !";
 }
 
-// Displaying the warning when you search something on google
+// Display the warning message when you are navigating the browser
 window.alert("ha ha ha ha Good luck trying to work with this ha ha ha ha");
