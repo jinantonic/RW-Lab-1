@@ -51,7 +51,7 @@ for (let i = 0; i < a.length; i++) {
 // Do the same for rule span elements
 const s = document.getElementsByTagName("span");
 for (let i = 0; i < s.length; i++) {
-    s[i].innerText = "WARNING";
+    s[i].innerText = "!WARNING!";
 }
 
 // Do the same for rule li elements
@@ -63,7 +63,11 @@ for (let i = 0; i < li.length; i++) {
 // Do the same for rule button elements
 const btn = document.getElementsByTagName("button");
 for (let i = 0; i < btn.length; i++) {
-    btn[i].innerText = "Alien Alert";
+    btn[i].innerText = "! Alien Alert ! DO NOT CLICK";
+
+    button.addEventListener('click', () => {
+        window.open('https://www.youtube.com/shorts/4Pq5R0JS95Q', '_blank');
+    });
 }
 
 // Displaying the warning when you search something on google

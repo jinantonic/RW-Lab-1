@@ -12,7 +12,7 @@ Have you ever thought of the existence of Aliens? Some people believe in them an
 
 ![Sketch](/images/ext1.png)
 
-I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens.
+I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. Default icon is set as the head of the alien to be noticed easily.
 
 
 
