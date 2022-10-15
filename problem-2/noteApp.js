@@ -46,17 +46,15 @@ function addNote(text = "") {
                 <button class = "delete"><i class="fa-sharp fa-solid fa-trash"></i></button>
             </div>
 
-            <div id = '`+ savedId +`'class="main ${text ? "" : "hidden"}"></div>
-            <textarea id = '` + textId + `' class="${text ? "hidden" : ""}"></textarea>
+            <div id = '` + savedId + `' class = "main ${text ? "" : "hidden"}"></div>
+            <textarea id = '` + textId + `' class = "${text ? "hidden" : ""}"></textarea>
         </div>
     `;
 
     const edit_button = note.querySelector(".edit"); // Get the first element with class "edit"
     const del_button = note.querySelector(".delete");  // Get the first element with class "delete"
-
     const main = note.querySelector(".main"); // Get the first element with class "main"
     const textArea = note.querySelector("textarea"); // Get the first element with class "textarea"
-
 
     textArea.value = text;
     main.innerHTML = marked(text);
@@ -66,17 +64,15 @@ function addNote(text = "") {
         textArea.classList.toggle("hidden");
     });
 
+    // When the delete button is clicked then remove the note and update to local storage
     del_button.addEventListener("click", () => {
         note.remove();
-
         uploadToLS();
     });
 
     textArea.addEventListener("input", (e) => {
         const { value } = e.target;
-
         main.innerHTML = marked(value);
-
         uploadToLS();
     });
 
@@ -86,7 +82,6 @@ function addNote(text = "") {
 // Function which saves the notes to the Local Storage
 function uploadToLS() {
     const notesText = document.querySelectorAll("textarea");
-
     const note_arr = [];
 
     notesText.forEach((note) => {
