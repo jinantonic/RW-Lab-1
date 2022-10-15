@@ -27,4 +27,4 @@ If the window size is less than 720px and greater than or equal to 360px, the 1x
 
 ![Sketch](/images/4x1.png)</br>
 This is the flexible grid with 4 rows and 1 column.</br>
-If the window size is less than 360px, the 1x4 grid becomes 4x1 grid.As you can see in the image above, the 2nd column slides under the 1st, the 3rd slides under the 2nd, and the 4th slides under the 3rd.
+If the window size is less than 360px, the 1x4 grid becomes 4x1 grid. As you can see in the image above, the 2nd column slides under the 1st, the 3rd slides under the 2nd, and the 4th slides under the 3rd.
