@@ -4,7 +4,7 @@ let alienPictures = [
     "https://media.npr.org/assets/img/2010/12/07/alien-9c61f4a13fecf3a041d86c38881d93638b320d1c-s1100-c50.jpg",
     "https://nationaltoday.com/wp-content/uploads/2022/08/4568069-min-640x514.jpg",
     "https://bigthink.com/wp-content/uploads/2022/09/13.8_Little-Book-of-Aliens_Lead.jpg?resize=1200,630",
-	"https://media.istockphoto.com/photos/friendly-alien-making-an-ok-hand-sign-picture-id1397350023?b=1&k=20&m=1397350023&s=170667a&w=0&h=L9u3fZk17qa0H3Fee19hPbTxx0Q7c2lr41Haffy1K1M=",
+    "https://media.istockphoto.com/photos/friendly-alien-making-an-ok-hand-sign-picture-id1397350023?b=1&k=20&m=1397350023&s=170667a&w=0&h=L9u3fZk17qa0H3Fee19hPbTxx0Q7c2lr41Haffy1K1M=",
     "https://cdn.mos.cms.futurecdn.net/ExZhhoFQYwDYSmXiYev25G-1200-80.jpg",
     "https://www.esquire.de/sites/esquire.de/files/styles/og_image/public/images/2021-08/alien-aufmacher.jpg?h=893bb400&itok=PV0WHwiX",
     "http://c.files.bbci.co.uk/130DA/production/_110424087_gettyimages-1130166565.jpg"
