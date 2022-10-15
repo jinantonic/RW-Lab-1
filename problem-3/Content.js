@@ -64,11 +64,10 @@ for (let i = 0; i < li.length; i++) {
 const btn = document.getElementsByTagName("button");
 for (let i = 0; i < btn.length; i++) {
     btn[i].innerText = "! Alien Alert ! DO NOT CLICK !";
-
-    button.addEventListener('click', () => {
-        window.open('https://www.youtube.com/shorts/4Pq5R0JS95Q', '_blank');
-    });
 }
+button.addEventListener('click', () => {
+    window.open('https://www.youtube.com/shorts/4Pq5R0JS95Q', '_blank');
+});
 
 // Displaying the warning when you search something on google
 window.alert("ha ha ha ha Good luck trying to work with this ha ha ha ha");
