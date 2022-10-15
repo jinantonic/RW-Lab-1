@@ -17,6 +17,7 @@ I created a simple Chrome extension which will make us experience the situation 
 
 ![Sketch](/images/b1.png)
 ![Sketch](/images/b2.png)
+![Sketch](/images/b3.png)
 
 We won't be able to access any internet since they will try to encrypt our human language to their language. To reproduce that situation, I replaced the elements (such as h1, h2, h3, etc) that I checked through google chrome developer with random images or texts. 
 </br></br>
