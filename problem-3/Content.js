@@ -30,6 +30,18 @@ for (let i = 0; i < header2.length; i++) {
     header2[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness";
 }
 
+// Apply the same rule for h3 elements
+const header3 = document.getElementsByTagName("h3");
+for (let i = 0; i < header3.length; i++) {
+    header3[i].innerText = "Watch out";
+}
+
+// Apply the same rule for h4 elements
+const header4 = document.getElementsByTagName("h4");
+for (let i = 0; i < header4.length; i++) {
+    header4[i].innerText = "Freedom is banned";
+}
+
 // Apply the same rule for h5 elements
 const header5 = document.getElementsByTagName("h5");
 for (let i = 0; i < header5.length; i++) {

@@ -15,10 +15,12 @@ Have you ever thought of the existence of Aliens? Some people believe in them an
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. Default icon is set as the head of the alien to be noticed easily.
 
 
+![Sketch](/images/ext4.png)
+![Sketch](/images/ext5.png)
 
-We won't be able to access any internet since they will try to encrypt our human language to their own language.
+We won't be able to access any internet since they will try to encrypt our human language to their own language. To reproduce that situation, I replaced the elements (such as h1, h2, h3, etc) that I checked through google chrome developer to random images or texts. 
 
-To reproduce that situation, I replaced the elements that I checked through google chrome developer to random images or texts.
+
 <br />
 Also, I added a small popup link and window alert so that it displays some funny texts when the icon is clicked or we navigate the browser.
 <br /> 
@@ -28,9 +30,9 @@ Hope this brings you joy because I had so much fun developing it.
 
 
 
-
 ![Sketch](/images/ext2.png)
+
+
 ![Sketch](/images/ext3.png)
-![Sketch](/images/ext4.png)
-![Sketch](/images/ext5.png)
+
 
