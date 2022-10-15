@@ -4,15 +4,17 @@
 - Extend the functionality by changing different elements of the DOM. 
 - Take a look at the “developer’s mode” on your browser to get inspire about what possible elements you could change. 
 - Provide a short readme file explaining your extension’ functionalities. Be creative!
+</br></br>
 
+# My solution
+Have you ever thought of the existence of Aliens? Some people believe in them and I do believe there might be another existing creatures on Earth.
+</br></br>
 
-<br />
-Have you ever thought of the existence of Aliens?
-<br />
-Some people believe in them and I do believe there might be another existing creatures on Earth.
-<br />
+![Sketch](/images/ext1.png)
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens.
-<br />
+
+
+
 We won't be able to access any internet since they will try to encrypt our human language to their own language.
 <br />
 To reproduce that situation, I replaced the elements that I checked through google chrome developer to random images or texts.
@@ -24,7 +26,9 @@ Hope this brings you joy because I had so much fun developing it.
 <br /> 
 
 
-![Sketch](/images/ext1.png) ![Sketch](/images/ext2.png)
+
+
+![Sketch](/images/ext2.png)
 ![Sketch](/images/ext3.png)
 ![Sketch](/images/ext4.png)
 ![Sketch](/images/ext5.png)
