@@ -12,10 +12,10 @@ let alienPictures = [
 
 // Reverse through array of images
 // Getting random image from the array we created before (we use math.floor and math.random to grab a random index in the array)
-const imgs = document.getElementsByTagName("img");
-for(let i = 0; i < imgs.length; i++) {
+const img = document.getElementsByTagName("img");
+for(let i = 0; i < img.length; i++) {
     const randomImg = Math.floor(Math.random() * alienPictures.length)
-    imgs[i].src = alienPictures[randomImg]
+    img[i].src = alienPictures[randomImg]
 }
 
 // Replace all of the h1 elements with the text below
