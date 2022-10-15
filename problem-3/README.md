@@ -26,19 +26,18 @@ We won't be able to access any internet since they will try to encrypt our human
 Also, I added a small popup link to display weird messages once the chrome extension icon(alien's head) is clicked to add a little razzle-dazzle.
 </br></br>
 
+![Sketch](/images/alert.png)
+This is another fun feature which will display the window alert with funny texts in it whenever we navigate the browser.
 
-<br />
-Also, I added a small popup link and window alert so that it displays some funny texts when the icon is clicked or we navigate the browser.
-<br /> 
+</br></br>
+![Sketch](/images/wave.png)
 Hope this brings you joy because I had so much fun developing it.
-<br /> 
-<br /> 
 
 
 
 
 
 
-![Sketch](/images/ext3.png)
+
 
 
