@@ -17,7 +17,10 @@ Each memo has a top bar which has a dropdown menu for colour choice, edit/save a
 This is the very first setting of the application, the user can start writing stuff on the textarea of the memo. There are 6 background colours(Red, Orange, Yellow, Green, Blue, Purple) and user can use the default background colour (beige) without changing it.
 </br></br>
 
-![Sketch](/images/note2.png, /images/note3.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Sketch](/images/note2.png)  |  ![Sketch](/images/note3.png)
+
 
 
 
