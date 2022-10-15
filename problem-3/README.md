@@ -11,12 +11,13 @@ Have you ever thought of the existence of Aliens? Some people believe in them an
 </br></br>
 
 ![Sketch](/images/ext1.png)
+
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens.
 
 
 
 We won't be able to access any internet since they will try to encrypt our human language to their own language.
-<br />
+
 To reproduce that situation, I replaced the elements that I checked through google chrome developer to random images or texts.
 <br />
 Also, I added a small popup link and window alert so that it displays some funny texts when the icon is clicked or we navigate the browser.
