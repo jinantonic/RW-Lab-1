@@ -96,9 +96,9 @@ function uploadToLS() {
 function changeColour(event, textId, savedId) {
     var colour = event.value;
     const b = document.getElementById(textId);
-	const c = document.getElementById(savedId);
+    const c = document.getElementById(savedId);
 
-	console.log("First line" + b.getItem);
+    console.log("First line" + b.getItem);
     b.style.backgroundColor = colour;
-	c.style.backgroundColor = colour;
+    c.style.backgroundColor = colour;
 } // end function changeColour()
