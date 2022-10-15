@@ -10,7 +10,7 @@
 Have you ever thought of the existence of Aliens? Some people believe in them and I do believe there might be another existing creature on Earth.
 </br></br>
 
-![Sketch](/images/ext.png)
+![Sketch](/images/exts.png)
 
 I created a simple Chrome extension which will make us experience the situation if the Earth is taken by Aliens. The default icon is set as the head of the alien to be noticed easily.
 </br></br>
