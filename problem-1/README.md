@@ -22,8 +22,7 @@ If the window size is greater than or equal to 720px, it is displaying the 1x4 f
 
 ![Sketch](/images/2x2.png)
 This is the flexible grid with 2 rows and 2 columns.</br>
-If the window size is less than 720px and greater than or equal to 360px, the 1x4 grid becomes 2x2 grid.</br>
-As you can see in the image above, the 3rd and 4th columns slide down onto the 2nd row.
+If the window size is less than 720px and greater than or equal to 360px, the 1x4 grid becomes 2x2 grid. As you can see in the image above, the 3rd and 4th columns slide down onto the 2nd row.
 </br></br></br>
 
 ![Sketch](/images/4x1.png)</br>
