@@ -99,7 +99,6 @@ function changeColour(event, textId, savedId) {
 	const c = document.getElementById(savedId);
 
 	console.log("First line" + b.getItem);
-    
     b.style.backgroundColor = colour;
 	c.style.backgroundColor = colour;
 } // end function changeColour()
