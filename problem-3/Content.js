@@ -33,7 +33,7 @@ for (let i = 0; i < header2.length; i++) {
 // Apply the same rule to h3 elements
 const header3 = document.getElementsByTagName("h3");
 for (let i = 0; i < header3.length; i++) {
-    header3[i].innerText = "Watch out";
+    header3[i].innerText = "! WARNING !";
 }
 
 // Apply the same rule to h4 elements
@@ -54,16 +54,17 @@ for (let i = 0; i < p.length; i++) {
     p[i].innerText = "The sooner the better";
 }
 
-// Apply the same rule to a elements
+// Getting random image from the array we created before and replace all the a elements to the random alien images
 const a = document.getElementsByTagName("a");
 for (let i = 0; i < a.length; i++) {
-    a[i].innerText = "Ta la la la la";
+    const randomImg2 = Math.floor(Math.random() * alienPictures.length)
+    a[i].src = alienPictures[randomImg2]
 }
 
 // Apply the same rule to span elements
 const s = document.getElementsByTagName("span");
 for (let i = 0; i < s.length; i++) {
-    s[i].innerText = "!WARNING!";
+    s[i].innerText = "Ta la la la la";
 }
 
 // Apply the same rule to li elements
