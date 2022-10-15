@@ -61,7 +61,7 @@ body {
     border: none;
     font-size: 19px;
     position: relative;
-    overflow-wrap: break-word;
+    overflow: auto;
     height: 350px;
     width: 95%;
     margin-left: 10px;
