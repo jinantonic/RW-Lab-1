@@ -15,8 +15,8 @@ body {
 .add_note {
     background-color: #8C8782;
     color: white; /* Text colour */
-    border: none;
     border-radius: 5px;
+    border: none;
     cursor: pointer; /* Cursor works as a pointer */
     position: fixed;
     padding: 11px 16px;
@@ -48,10 +48,10 @@ body {
     background-color: #8C8782;
     border-radius: 7px;
     border: none;
-    margin: 10px;
+    overflow: auto;
     height: 400px;
     width: 400px;
-    overflow: auto;
+    margin: 10px;
 }
 
 /* The main body of the note after it's getting saved */
@@ -60,12 +60,12 @@ body {
     border-radius: 7px;
     border: none;
     font-size: 19px;
+    position: relative;
+    overflow-wrap: break-word;
     height: 350px;
     width: 95%;
     margin-left: 10px;
     padding: 20px;
-    position: relative;
-    overflow-wrap: break-word;
 }
 
 /* The area for the text input */
