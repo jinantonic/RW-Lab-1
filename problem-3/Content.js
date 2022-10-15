@@ -18,61 +18,61 @@ for(let i = 0; i < imgs.length; i++) {
     imgs[i].src = alienPictures[randomImg]
 }
 
-// Apply the same rule for h1 elements
+// Apply the same rule to h1 elements
 const header1 = document.getElementsByTagName("h1");
 for (let i = 0; i < header1.length; i++) {
     header1[i].innerText = "The Earth is taken by our Aliens, humans suck";
 }
 
-// Apply the same rule for h2 elements
+// Apply the same rule to h2 elements
 const header2 = document.getElementsByTagName("h2");
 for (let i = 0; i < header2.length; i++) {
     header2[i].innerText = "Now you humans are our servants. Bring me a pint of Guiness";
 }
 
-// Apply the same rule for h3 elements
+// Apply the same rule to h3 elements
 const header3 = document.getElementsByTagName("h3");
 for (let i = 0; i < header3.length; i++) {
     header3[i].innerText = "Watch out";
 }
 
-// Apply the same rule for h4 elements
+// Apply the same rule to h4 elements
 const header4 = document.getElementsByTagName("h4");
 for (let i = 0; i < header4.length; i++) {
     header4[i].innerText = "Freedom is banned";
 }
 
-// Apply the same rule for h5 elements
+// Apply the same rule to h5 elements
 const header5 = document.getElementsByTagName("h5");
 for (let i = 0; i < header5.length; i++) {
     header5[i].innerText = "Now go pack your bag and bring all kinds of Alcohol to us";
 }
 
-// Apply the same rule for p elements
+// Apply the same rule to p elements
 const p = document.getElementsByTagName("p");
 for (let i = 0; i < p.length; i++) {
     p[i].innerText = "The sooner the better";
 }
 
-// Do the same for rule a elements
+// Apply the same rule to a elements
 const a = document.getElementsByTagName("a");
 for (let i = 0; i < a.length; i++) {
     a[i].innerText = "Ta la la la la";
 }
 
-// Do the same for rule span elements
+// Apply the same rule to span elements
 const s = document.getElementsByTagName("span");
 for (let i = 0; i < s.length; i++) {
     s[i].innerText = "!WARNING!";
 }
 
-// Do the same for rule li elements
+// Apply the same rule to li elements
 const li = document.getElementsByTagName("li");
 for (let i = 0; i < li.length; i++) {
     li[i].innerText = "Urgent News";
 }
 
-// Do the same for rule button elements
+// Apply the same rule to button elements
 const btn = document.getElementsByTagName("button");
 for (let i = 0; i < btn.length; i++) {
     btn[i].innerText = "! Alien Alert !";
