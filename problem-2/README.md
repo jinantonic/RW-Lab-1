@@ -1,5 +1,4 @@
 # Problem 2
-
 Create a simple note-taking app. A user should be able to
 - Add a note
 - Edit a note
